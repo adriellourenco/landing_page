@@ -1,0 +1,17 @@
+/* O reset é feito para você mesmo manualmente determinar o padding, margin e box-sizing. Para ficar padrão em todos os navegadores.*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00000080;
+    background-blend-mode: darken;
+}
