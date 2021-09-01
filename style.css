@@ -42,7 +42,10 @@ h1{
     font-weight: 400;
 }
 
-#learn-more{
+.botoes a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 40px;
     background-color: #FAE12C;
@@ -50,6 +53,19 @@ h1{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    margin-left: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botoes a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
 }
