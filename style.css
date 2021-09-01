@@ -28,14 +28,14 @@ main{
 }
 
 h1{
-    font-size: 100px;
+    font-size: clamp(40px, 8vw, 100px);
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 .descricao{    
-    font-size: 50px;
+    font-size: clamp(20px, 4vw, 50px);;
     font-style: italic;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
