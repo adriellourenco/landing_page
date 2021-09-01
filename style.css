@@ -68,4 +68,5 @@ h1{
 .botoes{
     display: flex;
     justify-content: center;
+    border-top: #FFFFFF solid 2px;
 }
